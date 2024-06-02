@@ -1,0 +1,288 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial;
+    border:border-box;/*It counts padding and margin into account of width & height*/
+}
+/*Navbar start*/
+.navbar{
+    background-color:#0f1111;
+    height:60px;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content: space-evenly;
+}
+#logo{
+    height:50px;
+    width:80px;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+#deliver_to
+{
+    font-size: 0.85rem;
+    color:#cccccc;
+    margin-left:15px;
+}
+#country{
+    font-size: 1rem;
+    margin:3px;
+}
+.loc_icon{
+    display:flex;
+}
+
+.searchbox
+{
+    display:flex;
+    width:600px;
+    height:40px;
+    background-color:#ffffff;
+    border-radius:4px;
+    justify-content:space-evenly;
+    border:none;
+}
+.search-select{
+    background-color:#f3f3f3;
+    font-size:0.85 rem;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+#search_icon{
+    background-color:rgb(203, 121, 70);
+    width:50px;
+    border-radius:0px 4px 4px 0px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:black;
+    font-size:1.3rem;
+}
+#search-input{
+    width:500px;
+    border:none;
+    font-size:1rem;   
+}
+#search-input:active{
+    border:none;
+}
+.searchbox:active{
+    border:2px solid rgb(203, 121, 70);
+}
+.language{
+    display:flex;
+    padding:10px 0px 10px 0px;
+
+}
+#flag{
+    width:20px;
+    height:15px;
+    background-image: url("America_flag.png");
+    background-size: cover;
+}
+.lang_select{
+    background-color: #0f1111;
+    color:white;
+    border:none;
+}
+
+span{
+    font-size:0.72rem;
+}
+.Account, .Order{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+.cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+.cart i{
+    font-size:30px;
+}
+
+/*Navbar end*/
+
+/*Panel start*/
+
+.panel{
+    background-color:#1f2439;
+    height:40px;
+    color:white;
+    font-weight:700;
+    font-size:0.9rem;
+    display:flex;
+    align-items:center;
+}
+.panel-all{
+    margin:0px 10px 0px 10px;
+}
+.panel-links a{
+    width:70%;
+    font-size:0.9rem;
+    text-decoration: none;
+    color:white;
+    margin:0px 10px 0px 10px;
+}
+
+/*panel end*/
+
+
+/*Hero start*/
+
+.hero_img{
+    height:400px;
+    background-image: url("hero1_image.jpg");
+    background-size:cover;
+    font-size:0.91rem;
+    display:flex;
+    justify-content:center;
+    align-items:end;
+}
+.hero_ad {
+    background-color:#f5f6f6;
+    color:black;
+    height:40px;
+    width:85%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 50px;
+} 
+.hero_ad a{
+    color:#007185;
+}
+
+.Boxes{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#d2e9f7;
+    flex-wrap: wrap;
+}
+.box1{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.box2{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.box3{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.box4{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.box5{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.box6{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.box7{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.box8{
+    height:420px;
+    width:320px;
+    background-color:#f5f6f6 ;
+}
+.para_for_big{
+    font-size:21px;
+    font-weight:700;
+    margin:20px 0px 20px 20px;
+}
+.a_for_big{
+    font-size:15px;
+    text-decoration: none;
+    color:#007185;
+    margin:20px 0px 20px 20px;
+}
+.single_box{
+    height:300px;
+    width:280px;
+    margin:20px 0px 20px 20px;
+}
+.four_img{
+    width:185px;
+    height:115px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.four_img {
+    flex: 1 1 calc(50% - 10px); 
+    box-sizing: border-box;
+}
+
+.four_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:0px 0px 8px;
+}
+
+
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+.box4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.four_img {
+    flex: 1 1 calc(50% - 10px); 
+    box-sizing: border-box;
+}
+
+.four_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.four_img p {
+    margin: 5px 0 0; 
+} 
+.four_img p {
+    margin: 20px 0 20px; /* Space below each image */
+}
+
+/**/
+
+
+
+
+
+
